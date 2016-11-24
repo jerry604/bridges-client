@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="test">#FF8888</color>
+
+    <!--Main Activity-->
+    <color name="colorMainBackground">#000000</color>
+    <color name="colorTextShadow">#C5C5C5</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorLocalPlay">#6ADD6A</color>
+    <color name="colorOnlinePlay">#FFCF55</color>
+    <color name="colorOnlineHCPlay">#BB0000</color>
+
+    <!--Local Play Activity-->
+    <color name="colorPullBackground">#6ADD6A</color>
+    <color name="colorDeathBackground">#BB0000</color>
+
+
+</resources>

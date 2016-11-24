@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Burning Bridges</string>
+
+    <string name="main_coming_soon">coming soon...</string>
+    <string name="main_play_local_btn">LOCAL PLAY</string>
+    <string name="main_play_online_btn">ONLINE PLAY</string>
+    <string name="main_play_online_hc_btn">ONLINE HARDCORE PLAY</string>
+
+    <string name="local_settings_title">SETTINGS</string>
+    <string name="local_settings_num_barrels">NUM. OF BARRELS</string>
+    <string name="local_settings_num_live">NUM. OF LIVE</string>
+    <string name="local_settings_num_blank">NUM. OF BLANKS</string>
+    <string name="local_settings_start_btn">START</string>
+
+    <string name="local_play_pull_btn">PULL TRIGGER</string>
+    <string name="local_play_play_again_btn">PLAY AGAIN</string>
+</resources>

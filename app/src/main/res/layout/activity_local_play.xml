@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_local_play"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jtsai.burningbridges.local.LocalPlayActivity">
+
+    <Button
+        android:id="@+id/local_play_play_again_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/local_play_play_again_btn"/>
+
+    <Button
+        android:id="@+id/local_play_pull_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/local_play_pull_btn"
+        android:background="@color/colorPullBackground"/>
+</RelativeLayout>
