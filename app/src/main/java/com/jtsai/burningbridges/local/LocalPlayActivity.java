@@ -1,6 +1,5 @@
 package com.jtsai.burningbridges.local;
 
-import android.animation.ObjectAnimator;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -26,6 +25,14 @@ public class LocalPlayActivity extends AppCompatActivity {
 
         setupViews();
         setupClickListeners();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        playAgainBtn.setOnClickListener(null);
+        pullTriggerBtn.setOnClickListener(null);
     }
 
     private void setupViews() {
@@ -57,6 +64,7 @@ public class LocalPlayActivity extends AppCompatActivity {
 
     private void setInitState() {
         pullTriggerBtn.setEnabled(true);
+        pullTriggerBtn.setVisibility(View.VISIBLE);
         pullTriggerBtn.setText(getString(R.string.local_play_pull_btn));
         pullTriggerBtn.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color
                 .colorPullBackground));
@@ -64,7 +72,7 @@ public class LocalPlayActivity extends AppCompatActivity {
 
     private void setDeathState() {
         pullTriggerBtn.setEnabled(false);
-        pullTriggerBtn.setText("YOU DIED.");
+        pullTriggerBtn.setVisibility(View.INVISIBLE);
         pullTriggerBtn.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color
                 .colorDeathBackground));
     }

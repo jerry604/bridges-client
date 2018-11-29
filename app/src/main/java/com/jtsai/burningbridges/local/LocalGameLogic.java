@@ -1,9 +1,5 @@
 package com.jtsai.burningbridges.local;
 
-/**
- * Created by Jerry Tsai on 2016-11-11.
- */
-
 public class LocalGameLogic {
     private static LocalGameLogic mInstance = null;
     private static final int DEFAULT_NUM_BARRELS = 6;
